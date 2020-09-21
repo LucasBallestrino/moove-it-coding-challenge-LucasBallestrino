@@ -38,7 +38,7 @@ cache.set("key2","value2")
 cache.get("key key2") {"key"=>"value", "key2"=>"value2"}
 ```
 
-## Server stats
+###### Server stats
 ```cache.stats``` should return the full list of Stats
 If you want to get an specific server stat you should send a parameter as string
 example: ```cache.stats("slabs")```
