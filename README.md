@@ -25,8 +25,8 @@ cache = RubyMemcachedClient.new('127.0.0.1', 11211)
 
 ## Sample commands
 
+###### set and get
 ```
-set and get
 cache.set("key","value")
 cache.get("key") "key" #=> "value"
 ```
