@@ -7,10 +7,10 @@ other versions may work, but are not guaranteed to do so.
 
 ## Installation
 All testing was made on CentOS 8.
-•Install memcached on CentOS
-•```$ sudo yum -y install memcached```
-•Then start the server
-•```$ sudo systemctl enable --now memcached.service```
+* Install memcached on CentOS
+* ```$ sudo yum -y install memcached```
+* Then start the server
+* ```$ sudo systemctl enable --now memcached.service```
 
 All Server values were default ones.
 
