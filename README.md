@@ -15,7 +15,7 @@ All testing was made on CentOS 8.
 All Server values were default ones.
 
 ## Usage
-Start the memcached server if not started yet : >$ memcached -p 11211
+Start the memcached server if not started yet : ```$ memcached -p 11211```
 Then in Ruby, require the library and instantiate a client object
 
 ```
